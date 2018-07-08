@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello world!
+comments: true
 ---
 
 Welcome to my blog! I am using jekyll-now to build this blog - it's basically a static website generator for Github Pages. Works pretty nicely I think. 
