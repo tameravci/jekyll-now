@@ -51,3 +51,10 @@ It's also clean enough. Or I guess they clean it on a regular basis unlike restr
 - ACAI bowls are great but not filling enough. So consider them for dessert.
 - Bring peppermint oil with you. My friend showed me this and it's so refreshing. Use a few droplets on your legs. Voila! Enjoy..
 - Go to Yuma tent for A/C. Only indoor stage with AC I believe.
+- Bring snapchat spectacles if you can. I mean why else do they exist.
+
+BONUS: Check out the video below I shot at Coachella 2018
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=8lkb2saTXt4
+" target="_blank"><img src="http://img.youtube.com/vi/8lkb2saTXt4/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
