@@ -4,7 +4,7 @@ title: Hacks to survive at Coachella!
 comments: true
 ---
 
-About a couple of months ago, I was fortunate enough to go to Coachella and find out what the hype was about. The tickets were quite expensive
+About a couple of months back, I was fortunate enough to go to Coachella and find out what the hype was about. The tickets were quite expensive
 and we were planning to camp. It was going to be my first (or second?) time camping at a festival so you could say that I was a big noob.
 Yet, I had a good amount of experience travelling abroad and discovering/staying at new places so I knew I had to prep before the festival.
 Before I get into the hacks that I used to make the most out of my experience at coachella, here are a few things why I wanted to go to Coachella
