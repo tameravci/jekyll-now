@@ -13,17 +13,17 @@ in the first place.
 1. Once in a lifetime experience. Everybody heard of it and it's a major world-wide event. You can think of the reputation as a stamp of approval.
 2. Lot of good artists. For me, this was: Tash Sultana, Maceo Plex, Black Coffee, Kolsch, CHIC, alt-J, Odezsa, Kamasi Washington, The weekend.
 There were lot more big names (eminem, migos, beyonce etc) but they were not selling points for me. Anyway, the idea here is that combined
-you would spend shit ton of more money to see all these artists. It's so convenient to see em all back to back. This is assuming you don't have
-major conflicts. 
-3. Beautiful venue. Indio California - Coachella Valley. Well, basically it's a deser but still with all the grass and palm trees, it's stunning.
+you would spend shit ton of more money to see all these artists. It's so convenient to see them all back to back. This is assuming you don't have
+major scheduling conflicts.
+3. Beautiful venue. Indio California - Coachella Valley. Well, basically it's a desert but still with all the grass and palm trees, it's stunning.
 4. Lot of attractive people. Minus instagram-only souls.
 5. Great stages. Except for when they are too close to each other there's a bit of sound interference.
 
 Major downsides:
 1. Heat. It's just extremely hot. Gets to 90s. I'm not good at handling extreme heat. You basically get up in the morning sweating in your tent.
-2. Need to hydrate too often. This is basically a result of #1 but could easily be solved with one of my hacks I describe below.
+2. Need to hydrate too often. This is basically a result of #1 but could easily be solved with few of my hacks I describe below.
 
-Ok now that we are done with overall feedback let's get into what you REALLY need to now before you head to Coachella. 
+Ok now that we are done with overall feedback let's get into what you REALLY need to know before you head to Coachella. 
 
 Hacks (in no particular order):
 - Let's start with water. Either invest in those camelback water backpacks or buy plenty of water and bring a cooler. I started off with a hydration
