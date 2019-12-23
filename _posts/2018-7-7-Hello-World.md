@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello world!
+category: life
 comments: true
 ---
 
