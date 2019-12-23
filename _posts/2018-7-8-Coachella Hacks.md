@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hacks to survive Coachella!
+categories: [travel, music]
 comments: true
 ---
 
