@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to reheat your Popeyes + Chick-Fil-A chicken sandwiches the RIGHT way
+title: How to reheat your Popeyes/Chick-Fil-A chicken sandwiches the RIGHT way
 category: [food]
 comments: true
 ---
