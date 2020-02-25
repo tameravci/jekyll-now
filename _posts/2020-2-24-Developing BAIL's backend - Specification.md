@@ -9,13 +9,13 @@ I saw a tweet the other day and it really piqued my interest. Here's the source 
 
 "The app is called “You’re Cancelled.” When you’ve made plans that you wish you could cancel, you go into the app and press a little button. If the other person presses theirs too, congratulations! Confetti exploded and your plans are cancelled." 
 
-Needless to say, I was immediately sold. I was drinking beer when I saw it so I told my friend to hold my beer. Honestly, the idea might promote something anti-social but I just thought it would be a good exercise to flex my android app as well as in general side project skills. I fully intend to finish this and release it on iOS and Google Play store if I can find a solid designer who can finish the UI for me. I will get the rest done. So if you like to build cool things and have experience on Android/iOS design, please inquire within.
+Needless to say, I was immediately sold. I was drinking beer when I saw it so I told my friend to hold my beer. Honestly, the idea might promote something anti-social but I just thought it would be a good exercise to flex my android app and side project skills. I fully intend to finish this and release it on iOS and Google Play store if I can find a solid designer who can finish the UI for me. I will get the rest done. So if you like to build cool things and have experience on Android/iOS design, please inquire within.
 
 Without further due, let's get right into it. First things first. Pick a playlist. Honestly, if I'm coding something exciting but also kinda edgy, I'll go with the Social network soundtrack. Enjoy: https://open.spotify.com/album/1ijkFiMeHopKkHyvQCWxUa?si=3SGegSNkTom9JHvelWcyQg
 
 Next is obviously alcohol. But I won't take "hold my beer" back. Instead, let's get funky. Pour some kahlua with club soda. And lots of ice. 
 
-Alright, ladies and gentleman we are ready to code. A junior engineer would say. First, we need to design the interface, use cases and the data model. The rest, we can just hand-off to a junior engineer.
+Alright, ladies and gentleman, we are ready to code... is what a junior engineer would say. First, we need to design the interface, use cases and the data model. The rest, the implementation, we can just hand-off to a junior engineer. Just kidding.
 
 Let's start with our requirements aka the use cases. There might be a slight difference between these terms but it's ok.
 
@@ -80,18 +80,17 @@ List<Plan> getPlans(ClientId authenticatedAndAuthorizedUser, NextToken nextConti
 where ```Plan``` is
 ```java
 public class Plan {
-User withWhom;
-Date date;
-Status status; // (enum: UNCONFIRMED, CANCELLED etc.)
+  User withWhom;
+  Date date;
+  Status status; // (enum: UNCONFIRMED, CANCELLED etc.)
 }
 ```
-
 
 This API will query all the future unconfirmed and confirmed(?) plans that the user has with others. The continuation token is set if the result size is bigger than X. Let's not worry about pagination just yet but yeah it's obviously gonna be there in this API.
 
 We can build another version of this for archived cancelled and not cancelled plans that the user has for, you know, bragging points. What else do we need?
 
-We need to be able to send notifications only when both parties cancel on each other. I love the confetti idea. So what I'm thinking is when the feelings are mutual, we should send an SMS notification with a link to open the app, and then boom, the app shows you what plans are cancelled, when & with whom etc.
+We need to be able to send notifications only when both parties cancel on each other. I love the confetti idea. So what I'm thinking is when the feelings are mutual, we should send an SMS notification with a link to open the app, and then boom, the app shows you what plans are cancelled, when & with whom etc and throw a bunch of confetti on the screen. Animations would be dope.
 
 ```java
 /*
@@ -104,4 +103,18 @@ We all love push notifications but that's more work. Here we will take advantage
 
 One thing that's critical is to NOT send the notification immediately AFTER the second person puts in the plan details. That would make it obvious to both parties who entered the details first. Which is why we should be careful around building that core logic in that we introduce some jizzer between the time plans are mutually confirmed and the time notificatins are sent out. The exact jizzer should depend on the time that's left until the date. Nothing difficult, meh, implementation detail even but the idea is essential to success.
 
+A couple of geeky ideas I have on this is to show users "secretly" that somebody is wishing to bail on them by sending them a notification without revealing who and when. That way we can lure them into buying the "premium" version of the app that can reveal the identity of the person that's bailing. Maybe. Haven't thought deeply about this so let's get back to our non-existing free version.
 
+Basically, we are done with the APIs. I think I covered all the requirements. Now, assuming these are my right access patterns, I can go ahead and design my data schema/model/state management. Let's talk about state.
+
+We need to be able to persist the auth token/client id somewhere on the device that can only be modified by the app. I was thinking of using SharedPreferences in Android world. Once the authentication is complete and the backend sends the client id back to the app, this is where the app will store it. It will be durable across app crashes/device reboots. The app will keep this state until the authentication needs to be repeated due to access expiry. This is pretty much the only state that the app needs to keep track of. Obviously it can do some caching to minimize redundant calls to the backend.
+
+On the cloud side, we need to keep track of all the entered unconfirmed plans so we can match them. We need durable storage. To make the app fast enough, we will need to define our keys and indices well. We should go with a database - a NoSQL should do it. Good thing, we have a solid idea of our access patterns. Otherwise, I'd recommend going with a SQL approach and just storing the entities per table.
+
+I want to have the fewest number of tables we can get away it. We should also strive to make the runtime of our queries linear. I came up with the following:
+
+```
+Table: Plan
+Primary (hash) key: Number1_Number2_Date (Numbers are sorted before concataenation)
+Sort (range) key: Number that entered the plan details first
+```
