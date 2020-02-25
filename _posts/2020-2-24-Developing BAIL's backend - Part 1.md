@@ -118,3 +118,30 @@ Table: Plan
 Primary (hash) key: Number1_Number2_Date (Numbers are sorted before concataenation)
 Sort (range) key: Number that entered the plan details first
 ```
+
+This way both our write & read (match) operations will be O(1). Here's how it works:
+
+1. Let's say a User 2 with Number 2 enters the plan they wish to cancel with User 1 with Number 1 on Date X.
+2. Backend sorts Number 1 and Number 2 numerically and concats them with the date. Let's say it turned out to be Number1_Number2_DateX.
+3. Backend first queries the DB with that being the hash key, PK=Number1_Number2_DateX. It finds out there are no records.
+4. Backend writes the record into the DB with PK=Number1_Number2_DateX and SK=Number2
+5. A day after User 1 with Number 1 also realizes they wish to cancel so they submit the request on BAIL APP.
+6. Backend sorts Number 1 and Number 2 numerically and concats them with the date. It becomes Number1_Number2_DateX.
+7. Backend queries the DB with that being the hash key, PK=Number1_Number2_DateX. It finds a record in O(1) constant time because that was our hash key. This is good news- confetti time.
+8. Backend sets up the notication event and time for further processing.
+
+Unfortunately, we can't query this table for retrieving all the plans given a number so we would have to store the details in a parallel table with PK=Number, and sort keys being withWhom and date and status. Actually mirroring the plan in-memory data structure. That should work and retrieve the plans (sorted by today onwards) in linear time given a phone number (user)
+
+That wraps up the data model. I shall now briefly cover the dependencies that we will utilize and proceed to the implementation in the next blog post.
+
+Since I'm an AWS geek I won't look elsewhere. We need a persistent NoSQL data storage and we have no better option than DynamoDB. Simple, consistent API. Easy enough.
+
+We will use SNS with SMS integration. SMS is not inherently "reliable" unless we use Transaction feature supported by SNS. I think OPT may fall into this category. I will have to double check. We will also use SNS for notification texts and they will have to be promotional. Cost should be minimal at first but with more users SMS would cost the company money so we would have to look into actual push notification integration.
+
+CW Events can be used in a fairly straightforward way to integrate "cancel notification" scheduling which would then trigger SNS-SMS push notifications. Once the storage returns a record to step #7, the backend should schedule a CW event.
+
+We should be able to build the entire backend in Lambda. No need for any persistence or customization in the compute layer. Nothing complicated. Short, plain simple functions with no timeout concerns. The cold start would be annoying but now they have reserved dedicated lambdas that we can take advantage of. At first, Lambda would be great since it will scale with usage. If the app became extremely popular, we may have to switch to dedicated servers. Very hypothetical.
+
+Finally, we need to write some APIs. Yeah, yeah, we may need an API Gw but what was the first rule? Simplicity. So we will ignore the GW at first. Instead, we will setup an unauthenticated Cognito pool (since we are doing authentication out of band) and that pool shall give the android app's aws sdk permissions to call our Lambdas. To keep things warm, we can write all the APIs in one lambda or 1 per API. Not so sure yet, implementation detail so I'll cover this in the next post.
+
+Getting excited to build this. Hope you enjoyed this guide around system design and keeping things simple as you build your next idea.
