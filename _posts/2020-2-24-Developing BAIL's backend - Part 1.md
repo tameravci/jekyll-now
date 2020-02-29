@@ -5,9 +5,7 @@ category: [engineering]
 comments: true
 ---
 
-I saw a tweet the other day and it really piqued my interest. Here's the source to give her credit: https://twitter.com/mattiekahn/status/1224100727578120193
-
-"The app is called “You’re Cancelled.” When you’ve made plans that you wish you could cancel, you go into the app and press a little button. If the other person presses theirs too, congratulations! Confetti exploded and your plans are cancelled." 
+I saw a tweet the other day and it really piqued my interest. Here's the source to give her credit: https://twitter.com/mattiekahn/status/1224100727578120193 "The app is called “You’re Cancelled.” When you’ve made plans that you wish you could cancel, you go into the app and press a little button. If the other person presses theirs too, congratulations! Confetti exploded and your plans are cancelled." 
 
 Needless to say, I was immediately sold. I was drinking beer when I saw it so I told my friend to hold my beer. Honestly, the idea might promote something anti-social but I just thought it would be a good exercise to flex my android app and side project skills. I fully intend to finish this and release it on iOS and Google Play store if I can find a solid designer who can finish the UI for me. I will get the rest done. So if you like to build cool things and have experience on Android/iOS design, please inquire within.
 
