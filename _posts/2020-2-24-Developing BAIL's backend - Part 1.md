@@ -7,30 +7,35 @@ comments: true
 
 I saw a tweet the other day and it really piqued my interest. Here's the source to give her credit: https://twitter.com/mattiekahn/status/1224100727578120193 "The app is called “You’re Cancelled.” When you’ve made plans that you wish you could cancel, you go into the app and press a little button. If the other person presses theirs too, congratulations! Confetti exploded and your plans are cancelled." 
 
-Needless to say, I was immediately sold. I was drinking beer when I saw it so I told my friend to hold my beer. Honestly, the idea might promote something anti-social but I just thought it would be a good exercise to flex my android app and side project skills. I fully intend to finish this and release it on iOS and Google Play store if I can find a solid designer who can finish the UI for me. I will get the rest done. So if you like to build cool things and have experience on Android/iOS design, please inquire within.
+Needless to say, I was immediately sold. I was drinking beer when I saw it so I told my friend about it and asked him to hold my beer. Honestly, the idea might promote something anti-social but I just thought it would be a good exercise to flex my android app and side project skills. I also think that it's somewhat of an appropriate app idea especially for people of Seattle. Have you heard of the Seattle freeze?
 
-Without further due, let's get right into it. First things first. Pick a playlist. Honestly, if I'm coding something exciting but also kinda edgy, I'll go with the Social network soundtrack. Enjoy: https://open.spotify.com/album/1ijkFiMeHopKkHyvQCWxUa?si=3SGegSNkTom9JHvelWcyQg
+Anyways, I fully intend to finish this and release it on iOS and Google Play store if I can find a solid designer who can finish the UI for me. I will get the rest done. So if you like to build cool things and have some experience with Android/iOS design, please inquire within: avcitamer94@gmail.com
 
-Next is obviously alcohol. But I won't take "hold my beer" back. Instead, let's get funky. Pour some kahlua with club soda. And lots of ice. 
+Without further due, let's get right into it. First things first. Pick a playlist. Honestly, if I'm coding something exciting but also kinda edgy, I'll go with the Social network soundtrack. Enjoy: https://open.spotify.com/album/1ijkFiMeHopKkHyvQCWxUa?si=3SGegSNkTom9JHvelWcyQg. If I'm more in the melodic/dark techno mood, then I'll go with Mind Against or Tale of Us. Pick your poison basically.
 
-Alright, ladies and gentleman, we are ready to code... is what a junior engineer would say. First, we need to design the interface, use cases and the data model. The rest, the implementation, we can just hand-off to a junior engineer. Just kidding.
+Next is obviously alcohol. But I will not take my beer back from my friend. Instead, let's get funky. Pour some kahlua with club soda. And lots of ice. 
+
+Alright, ladies and gentleman, we are ready to code... is what a junior engineer would say. First, we need to design the interface, use cases and the data model. The rest, the implementation, we can just hand-off to a junior engineer. Just kidding. 
 
 Let's start with our requirements aka the use cases. There might be a slight difference between these terms but it's ok.
+
+### Requirements
 
 ```
 1. Authenticate the user of the application
 2. Secretly enter the plans that you wish you could cancel
-3. View all the (unconfirmed) plans that you entered
-4. Be nofitied when the cancellation desire is mutual! Celebrate the mutual cancellation of plans on your own.
+3. View all the (confirmed and otherwise) plans that you entered
+4. Be nofitied when the cancellation desire happens to be mutual! 
+     -- Bonus: Celebrate the cancellation of your plans with confetti.
 ```
 
-That's it. We got to keep it simple because, you know, I have a day job. Also starting simple and getting feedback is perfectly fine. Reduce the scope. Feature down. Underdo your competition. *Winks at 37signals, you guys know it.
+That's it. We got to keep it simple because, you know, I have a day job. Also starting simple and getting feedback is perfectly fine. Worse is better. Reduce the scope. Feature down. Underdo your competition. *Winks at 37signals, you guys know it.
 
-Alright so now that we know our requirements, let's make them crystal clear from the technical standpoint. This is where the engineering team usually chimes in. We take the "more abstract" requirements and turn them into tangible technical capabilities.
+Alrighty, so now that we know our requirements, let's make them crystal clear from the technical standpoint. This is where the engineering team usually chimes in. We take the "more abstract" requirements and turn them into tangible technical capabilities.
 
-Security is a huge thing and be able to authenticate users is essential for almost all applications. We can't take many shortcuts here. However, I will go with the simplest approach here. Normally, I hate SIM cards and phone numbers but they do simplify things. I hate social-media app based auth models even more so I'll go with the phone numbers.
+Security is a huge thing and being able to authenticate the users is essential for almost all applications. We can't take many shortcuts here. However, I will go with the simplest approach here. Normally, I dislike that we still use SIM cards and phone numbers but they do simplify things. I hate social-media app based auth models even more so I'll go with phone numbers.
 
-Obviously the right thing would be to interact with the UICC SIM card, maybe retrieve IMEI etc. but ain't nobody got time for that. We will do the second most feasible approach. One-time OPT codes sent via SMS. Here's the API we are going to build.
+Obviously, the right thing would be to interact with the UICC SIM card, maybe retrieve IMEI etc, authenticate via some JavaCard applet (https://nelenkov.blogspot.com/2013/09/using-sim-card-as-secure-element.html) but ain't nobody got time for that. We will do the second most feasible approach. One-time OPT codes sent via SMS. Here's the API we are going to build.
 
 ```
 Given a phone number, generate a one-time use time-based OTP, send it via SMS and ask the user to enter the OTP on the screen
@@ -39,7 +44,7 @@ Given a phone number, generate a one-time use time-based OTP, send it via SMS an
 or in API form
 ``` java
 /*
-Generates an OTP, stores it with a TTL for a phone number auth attempt
+Generates an OTP, sends it over SMS, stores it with a TTL for a phone number auth attempt
 */
 void requestOtp(PhoneNumber number);
 ```
@@ -53,9 +58,9 @@ Given an OPT and a phone number, authenticates the user or throw AccessDenied (i
 ClientId authenticate(PhoneNumber number, OTP authToken) throws AccessDeniedException;
 ```
 
-Alright, assuming we can authenticate users, we can now focus on the core use case. Here it is extremely critical to agree on the time. I like to go with the granularity level of daily plans. I mean, who makes a plan with the same person more than once on any given day. So our app will allow you to secretly enter your plans on a daily basis and with however many people.
+Assuming we can authenticate users, we can now focus on the core use case. Here, it is extremely critical to agree on the time of the dates. I like to go with the granularity level of daily plans, nothing more or less granular. I mean, who makes a plan with the same person more than once on any given day? Our app will allow you to secretly enter your plans on a daily basis and with however many people.
 
-This means, our date consists of 2 questions: 1) With whom (contacts prompt) 2) When? (calendar prompt). Simple.
+This means, our date consists of 2 questions: 1) With whom (contacts prompt) 2) When? (calendar prompt). Simple. I guess our model does extend to dates with more than just two people. But for simplicity I'll keep it at two for now. I'll try to pay attention to that to avoid making a one-way door decision that would restrict our ability to support dates with multiple people. In such a case, I presume we would need to wait for all parties' cancellation request before the plans can be considered cancelled.
 
 ```java
 /*
@@ -64,7 +69,7 @@ Given a date and a contact, stores the plans that the user wishes they could can
 void schedule(ClientId authenticatedAndAuthorizedUser, Date when, PhoneNumber withWhom);
 ```
 
-It's important to note that all these APIs will have to carry the authenticated user id so that the backend can check whether or not this user is authorized to set a date on behalf of the owner of the client id. Usually, those client ids or auth tokens should be short-lived and periodically refreshed. Ignoring for the time being.
+It's important to note that all these APIs will have to carry the authenticated user id so that the backend can check whether or not this user is authorized to set a date on behalf of the owner of the client id. Usually, those client ids or auth tokens should be short-lived and periodically refreshed. Ignoring that for the time being.
 
 We are almost there. We need one more API. Whenever I open the app, I'd like to see my unconfirmed plans. Remember, we are sending notifications when both parties enter their plans that they wish to cancel but otherwise the plans are still happening and you will hopelessly look at your dashboards. For that, we need to retrieve the unconfirmed plans from the backend starting from today into the future
 
@@ -88,7 +93,7 @@ This API will query all the future unconfirmed and confirmed(?) plans that the u
 
 We can build another version of this for archived cancelled and not cancelled plans that the user has for, you know, bragging points. What else do we need?
 
-We need to be able to send notifications only when both parties cancel on each other. I love the confetti idea. So what I'm thinking is when the feelings are mutual, we should send an SMS notification with a link to open the app, and then boom, the app shows you what plans are cancelled, when & with whom etc and throw a bunch of confetti on the screen. Animations would be dope.
+We need to be able to send notifications only when both parties cancel on each other. I love the confetti idea. So what I'm thinking is when the feelings are mutual, we should send an SMS notification with a link to open the app, and then boom, the app shows you what plans are cancelled, when & with whom etc and throw a bunch of confetti on the screen. Animations would be dope. We could technically provide an option to revive the date? I'm just thinking out loud.
 
 ```java
 /*
@@ -97,23 +102,25 @@ Given a notification token retrieved via SMS and the authorized user, retrieves 
 Plan getCancelledPlan(ClientId authenticatedAndAuthorizedUser, NotificationToken token);
 ```
 
-We all love push notifications but that's more work. Here we will take advantage of the SMS integration and will force the app to make a backend call to retrieve the just cancelled event. Similarly, we need another API to retrieve all the notifications so that if they miss the SMS or something, they can go back to the app and hit on the notification page and go from there.
+We all love push notifications but you know that's more work. Here we will take advantage of the SMS integration and will force the app to make a backend call to retrieve just the cancelled event. Similarly, we need another API to retrieve all the notifications so that if they miss the SMS or something, they can go back to the app and hit on the notification page and go from there.
 
-One thing that's critical is to NOT send the notification immediately AFTER the second person puts in the plan details. That would make it obvious to both parties who entered the details first. Which is why we should be careful around building that core logic in that we introduce some jizzer between the time plans are mutually confirmed and the time notificatins are sent out. The exact jizzer should depend on the time that's left until the date. Nothing difficult, meh, implementation detail even but the idea is essential to success.
+One thing that's critical is to NOT send the notification immediately AFTER the second person puts in the plan details. That would make it obvious to both parties who entered the details first. Which is why we should be careful building that core logic. We could introduce some jizzer between the time plans are mutually confirmed and the time notifications are sent out. The exact jizzer should depend on the time that's left until the date. Nothing difficult, meh, implementation detail even but the idea is essential to success. More importantly, we need to be able to convey this feature to our users so that they don't assume the plans are always wished to be cancelled by the other party. Because that's how dating apps work unlike this app.
 
 A couple of geeky ideas I have on this is to show users "secretly" that somebody is wishing to bail on them by sending them a notification without revealing who and when. That way we can lure them into buying the "premium" version of the app that can reveal the identity of the person that's bailing. Maybe. Haven't thought deeply about this so let's get back to our non-existing free version.
 
 Basically, we are done with the APIs. I think I covered all the requirements. Now, assuming these are my right access patterns, I can go ahead and design my data schema/model/state management. Let's talk about state.
 
-We need to be able to persist the auth token/client id somewhere on the device that can only be modified by the app. I was thinking of using SharedPreferences in Android world. Once the authentication is complete and the backend sends the client id back to the app, this is where the app will store it. It will be durable across app crashes/device reboots. The app will keep this state until the authentication needs to be repeated due to access expiry. This is pretty much the only state that the app needs to keep track of. Obviously it can do some caching to minimize redundant calls to the backend.
+### State Management
 
-On the cloud side, we need to keep track of all the entered unconfirmed plans so we can match them. We need durable storage. To make the app fast enough, we will need to define our keys and indices well. We should go with a database - a NoSQL should do it. Good thing, we have a solid idea of our access patterns. Otherwise, I'd recommend going with a SQL approach and just storing the entities per table.
+We need to be able to persist the auth token/client id somewhere on the device that can only be modified by the app. I was thinking of using SharedPreferences in Android world. Once the authentication is complete and the backend sends the client id back to the app, this is where the app will store it. It will be durable across app crashes/device reboots. The app will keep this state until the authentication needs to be repeated due to access expiry. This is pretty much the only state that the app needs to keep track of. Obviously, it can do some caching to minimize redundant calls to the backend.
 
-I want to have the fewest number of tables we can get away it. We should also strive to make the runtime of our queries linear. I came up with the following:
+On the cloud side, we need to keep track of all the entered unconfirmed plans so we can match them. We need durable storage. To make the app fast enough, we will need to define our keys and indices well. We should go with a database - a NoSQL should do it. Good thing, we have a solid idea of our access patterns. Otherwise, I'd recommend going with a SQL approach and just storing the entities per table. A relational model would keep the flexibility in the queries you are going to construct as you develop the idea.
+
+I want to have the fewest number of tables that we can get away it. We should also strive to make the runtime of our queries linear. I came up with the following:
 
 ```
 Table: Plan
-Primary (hash) key: Number1_Number2_Date (Numbers are sorted before concataenation)
+Primary (hash) key: Number1_Number2_Date (Number1_Number_2_..._NumberN_Date to support dates with multiple people)
 Sort (range) key: Number that entered the plan details first
 ```
 
@@ -131,6 +138,8 @@ This way both our write & read (match) operations will be O(1). Here's how it wo
 Unfortunately, we can't query this table for retrieving all the plans given a number so we would have to store the details in a parallel table with PK=Number, and sort keys being withWhom and date and status. Actually mirroring the plan in-memory data structure. That should work and retrieve the plans (sorted by today onwards) in linear time given a phone number (user)
 
 That wraps up the data model. I shall now briefly cover the dependencies that we will utilize and proceed to the implementation in the next blog post.
+
+### Infrastructure and Dependencies
 
 Since I'm an AWS geek I won't look elsewhere. We need a persistent NoSQL data storage and we have no better option than DynamoDB. Simple, consistent API. Easy enough.
 
