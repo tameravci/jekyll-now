@@ -35,7 +35,7 @@ Alrighty, so now that we know our requirements, let's make them crystal clear fr
 
 Security is a huge thing and being able to authenticate the users is essential for almost all applications. We can't take many shortcuts here. However, I will go with the simplest approach here. Normally, I dislike that we still use SIM cards and phone numbers but they do simplify things. I hate social-media app based auth models even more so I'll go with phone numbers.
 
-Obviously, the right thing would be to interact with the UICC SIM card, maybe retrieve IMEI etc, authenticate via some JavaCard applet (https://nelenkov.blogspot.com/2013/09/using-sim-card-as-secure-element.html) but ain't nobody got time for that. We will do the second most feasible approach. One-time OPT codes sent via SMS. Here's the API we are going to build.
+Obviously, the right thing would be to interact with the UICC SIM card, maybe retrieve IMEI etc, authenticate via some JavaCard applet (https://nelenkov.blogspot.com/2013/09/using-sim-card-as-secure-element.html) but ain't nobody got time for that. Funny, I actually have a solid amount of expertise in JavaCard development but that's for a later post perhaps. We will do the second most feasible approach. One-time OPT codes sent via SMS. Here's the API we are going to build.
 
 ```
 Given a phone number, generate a one-time use time-based OTP, send it via SMS and ask the user to enter the OTP on the screen
