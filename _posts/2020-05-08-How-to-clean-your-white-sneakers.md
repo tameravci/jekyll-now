@@ -1,5 +1,9 @@
 ---
 published: true
+layout: post
+category:
+  - life
+comments: true
 ---
 ## Make white sneakers great again
 
