@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Make white sneakers great again
 
@@ -12,5 +12,3 @@ The problem is they get dirty so quickly. Even when the weather has been relativ
 Here's the instructions to the [cleaning process](https://www.reebok.com/us/blog/300935) 
 
 Enjoy and get those sneakers looking brighter than ever this spring!
-
-
