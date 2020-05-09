@@ -5,7 +5,7 @@ category:
   - life
 comments: true
 ---
-Make white sneakers great again
+Make white sneakers great again!.. but how?
 
 Nothing can replace a slick looking white pair of sneakers. Often times, they are a cornerstone of a great outfit but even when they don't, they still go well with most of the outfits.
 
