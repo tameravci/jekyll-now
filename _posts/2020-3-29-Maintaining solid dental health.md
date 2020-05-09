@@ -1,8 +1,10 @@
 ---
 layout: post
 title: How to maintain solid dental health
-category: [life]
+category:
+  - life
 comments: true
+published: true
 ---
 
 Disclaimer: By no means, I am a dental or a medical professional. What I'm providing here is simply my take on how to maintain and improve your dental health. When in doubt, you should always trust your dentist's opinion and not mine.
@@ -26,7 +28,7 @@ It was when I had to undergo a root canal operation in my teenage years that I f
 Now that you scheduled your appointments and your dentist is involved and made a plan for you to get your teeth fixed, it's time for you to TAKE ACTION AT HOME. You need to get this part right or else you are going to spiral back into the state you started at.
 
 I highly recommend you to invest in the following:
-1. Electric toothbrush: This will help you brush your teeth consistently and for an absolute minimum of 2 minutes. You can set different pressure settings and adjust other finer details. Some advanced ones even come with an app that shows you in 3D which teeth got brushed. That's a little extra but it's a one time purchase. Well worth it. You have to obviously replace the head every 2-3 months but other than that, it's going to help you immensely. Mine is https://www.amazon.com/Philips-Sonicare-rechargeable-toothbrush-Packaging/dp/B00QZ67O6G
+1. Electric toothbrush: This will help you brush your teeth consistently and for an absolute minimum of 2 minutes. You can set different pressure settings and adjust other finer details. Some advanced ones even come with an app that shows you in 3D which teeth got brushed. That's a little extra but it's a one time purchase. Well worth it. You have to obviously replace the head every 2-3 months but other than that, it's going to help you immensely. Mine is [this Philips Sonicare](https://www.amazon.com/Philips-Sonicare-rechargeable-toothbrush-Packaging/dp/B00QZ67O6G)
 2. Quality toothpaste: I'm no expert here but my research and dentist approves any Sensodyne brand or if you want a bit of whitening then go with Crest Charcoal 3D White Toothpaste
 3. Quality floss: I had trouble with this for a long time but I finally found one brand that works for me. I can't floss with the regular floss but with floss picks it's so easy. Like there's no more excuse - they are so easy to use. Go with Oral-B Glide Mint Floss Picks. They even taste good and because they have a plastic handle you will be able to easily glide them in betwen your teeth.
 4. Normal mouthwash: I didn't call this quality because I'm not sure if Listerine is a quality brand given that there are so many organic options at Whole Foods and that they don't even sell Listerine but for me this is the one that works. I like the burning sensation in my mouth *shrugs*
@@ -36,7 +38,7 @@ Flossing is also a must at least once a day! The more you do it the better. This
 Same with mouthwash. I mean, how can you not like this? Your mouth will smell great. Do it often.
 
 Assuming you got the essential tools above, here's my suggestions for the power users, or people who really want to boost their dental health.
-1. Interdental brushes: This is not something I've seen in the US. I found it with mum in the UK.  These brushes work in tandem with floss to clean the small food particles out from tighter spots between your teeth. You'd think floss would get everything out but nope! Once you go with these, you'll never be able to go back. My dentist said you can't give up regular floss even if you use these but they said this is a great idea for perfect cleaning. This also helps your gums. Grab them from Amazon: https://smile.amazon.com/gp/product/B004D936NM/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&th=1
+1. Interdental brushes: This is not something I've seen in the US. I found it with mum in the UK.  These brushes work in tandem with floss to clean the small food particles out from tighter spots between your teeth. You'd think floss would get everything out but nope! Once you go with these, you'll never be able to go back. My dentist said you can't give up regular floss even if you use these but they said this is a great idea for perfect cleaning. This also helps your gums. Grab [them from Amazon]( https://smile.amazon.com/gp/product/B004D936NM/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&th=1).
 I use Size 0 so it gets in-between the tightest spots.
 2. Crest 3D Whitestrips: These are whitening strips you attach to your teeth. I'd never thought they would work but they really do. You just have to wear one per day and in 30 days, there's definitely a change. Don't expect significant results but I know you'll be happy about it if you are not satisfied with how white your teeth are. In addition to the 30 strips, they give you 1 hour express ones which are supposed to improve the whiteness quickly for 2 days but not sure if that really works. Anyways, this one's cosmetic so it's optional.
 
