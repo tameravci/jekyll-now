@@ -9,7 +9,7 @@ Make white sneakers great again
 
 Nothing can replace a slick looking white pair of sneakers. Often times, they are a cornerstone of a great outfit but even when they don't, they still go well with most of the outfits.
 
-The problem is they get dirty so quickly. Even when the weather has been relatively decent, any dirt that's picked up stands out. I hate the fact that we can't really throw them in the laundry. But I finally found a way to clean them with household items. Here's the instructions to the [cleaning process](https://www.reebok.com/us/blog/300935) Full disclosure: I tried them myself and got pretty satisfying results.
+The problem is they get dirty so quickly. Even when the weather has been relatively decent, any dirt that's picked up stands out. I hate the fact that we can't really throw them in the laundry. But I finally found a way to clean them with household items. Here's the instructions to the [cleaning process](https://www.reebok.com/us/blog/300935). Full disclosure: I tried them myself and got pretty satisfying results.
 
 Enjoy and get those sneakers looking brighter than ever this spring!
 
