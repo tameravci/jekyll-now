@@ -18,6 +18,7 @@ I gathered the following collection of valuable resources that I found useful in
 
 - [Tips for great writing](http://web.archive.org/web/20050403185924/http://www.testing.com/cgi-bin/blog/2004/11/16)
 - [Writing tips for non writers](https://whatever.scalzi.com/2006/02/12/writing-tips-for-non-writers-who-dont-want-to-work-at-writing/)
+- [We should all blog](https://sites.google.com/site/steveyegge2/you-should-write-blogs)
 - [Do NOT ever just say hello](https://www.nohello.com/)
 - [Writing is hard](https://blog.codinghorror.com/fear-of-writing/)
 - [How to be successful blogging](https://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/)
