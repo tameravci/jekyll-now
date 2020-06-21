@@ -25,6 +25,7 @@ I gathered the following collection of valuable resources that I found useful in
 - [How to ask smart questions - this is art](http://www.catb.org/esr/faqs/smart-questions.html)
 - [Write less](https://www.npr.org/sections/13.7/2014/02/03/270680304/this-could-have-been-shorter#:~:text=In%20his%20Lettres%20Provinciales%2C%20the,did%20not%20have%20the%20time.)
 - [How to blog](https://blog.codinghorror.com/blogging-about-blogging/)
+- [Concise writing in Turkish](https://twitter.com/tamer_avci/status/1242528726350323713)
 
 
 And finally, never forget the following. 
