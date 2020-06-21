@@ -3,6 +3,7 @@ layout: post
 title: Writing
 category: life
 comments: true
+published: true
 ---
 
 Writing is serious business. It's the only medium that enhances or damages the ideas that it conveys. It's like railroad tracks. Unless they are laid out securely, no train of thought (*pun intended*) would be safe to travel on them.
@@ -29,4 +30,4 @@ And finally, never forget the following.
 
 In his Lettres Provinciales, the French philosopher and mathematician Blaise Pascal famously wrote:
 
->> I would have written a shorter letter, but I did not have the time.
+> I would have written a shorter letter, but I did not have the time.
