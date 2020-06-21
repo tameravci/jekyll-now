@@ -1,6 +1,10 @@
 ---
-published: false
+layout: post
+title: Writing
+category: life
+comments: true
 ---
+
 Writing is serious business. It's the only medium that enhances or damages the ideas that it conveys. It's like railroad tracks. Unless they are laid out securely, no train of thought (*pun intended*) would be safe to travel on them.
 
 We take good writing for granted all the time. You feel this as long as you sit on the other side of the table and keep consuming. It wasn't until I wrote my first piece of **public** blog post that I experienced the challenge. Private journaling doesn't count. I treat that as if I have no audience. You can't afford do that in public domain.
