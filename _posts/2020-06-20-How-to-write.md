@@ -30,6 +30,6 @@ If any of this resonated with you so far or if you are hungry for more tips, I'm
 
 And finally, never forget the following. 
 
-In his Lettres Provinciales, the French philosopher and mathematician Blaise Pascal famously wrote:
+> [“I didn't have time to write a short letter, so I wrote a long one instead.”](https://www.goodreads.com/quotes/21422-i-didn-t-have-time-to-write-a-short-letter-so)
 
-> I would have written a shorter letter, but I did not have the time.
+― Mark Twain
