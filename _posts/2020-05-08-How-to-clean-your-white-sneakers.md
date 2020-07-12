@@ -11,6 +11,8 @@ Nothing can replace a slick looking white pair of sneakers. Often times, they ar
 
 The problem is they get dirty so quickly. Even when the weather has been relatively decent, any dirt that's picked up stands out. I hate the fact that we can't really throw them in the laundry. But I finally found a way to clean them with household items. Here's the instructions to the [cleaning process](https://www.reebok.com/us/blog/300935). Full disclosure: I tried them myself and got pretty satisfying results.
 
+Also I recently ran into this youtube channel that talks about fashion, minimalism, and daily routines. Owner of the channel owns a pair of Common Projects and [in this video](https://www.youtube.com/watch?v=O4HteHXmWds) he goes over how to clean them! I think it's another great resource if you own a leather pair of white sneakers.
+
 Enjoy and get those sneakers looking brighter than ever this spring!
 
 <p align="center">
