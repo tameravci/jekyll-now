@@ -6,7 +6,7 @@ comments: true
 published: true
 ---
 
-The NBA is back! We had two games tonight and both of them were pretty close games even though players looked a little bit rusty. I felt pretty entertained, to be honest, I mean, how could you not be with all the virtual crowd?
+The NBA is back! We had two games tonight and both of them were pretty close games even though players looked a little bit rusty. I felt pretty entertained, to be honest, I mean, how could you not be with all the virtual crowd? It's pretty sweet what Microsoft Teams accomplished for the NBA.
 
 The LA battle needed a few celebrity virtual fans in the front row but other than that, I thought it's the best they could do..
 
