@@ -6,14 +6,14 @@ comments: true
 published: true
 ---
 
-I just wanted to give an update on what I intend to publish soon on this page. I have some ideas that are still not as crystalized as I'd like them to be and thus the delay in publishing a lot more stuff.
+I just wanted to give an update on what I intend to publish soon on this page. I have some ideas but they are not as crystalized as I'd like them to be.
+I'll be honest. I'm not even sure what I want from this platform. Do I want to keep it as a blog or do I change it into a website of a few useful essays/compilations/life hacks? I have a twitter account where I post about daily matters and whatnot but here I'd like to follow something more structured.
 
-I'll be honest. I'm not even sure what I want from this platform. Do I want to keep it as a blog or do I change it into a website of a few useful essays/compilations/life hacks. I have a twitter account where I post about daily matters and whatnot but here I'd like to follow something more structured.
-
-Since twitter is simply a 140-character blog, not sure if I want to have a longer version of that over here. The idea of essays sounds slightly better. On the other hand, I also think maybe I need to start a podcast (ugh I can hear the rumblings of annoyed people, I know we don't really need yet another podcast). I just think that it might be a bit better fit for the kind of tone I have in my blog. Writing is absolutely fine and I think I'll end up with a bit of both. When the topic is heavier, I may do a podcast of free-flowing thoughts instead of prose. Writing takes a lot more time and i don't really like it when it's not polished..
+Since twitter is simply a 140-character blog, I'm not sure if I want to have a longer version of that over here. The idea of essays sounds slightly better. On the other hand, I also think maybe I need to start a podcast (ugh I can hear the rumblings of annoyed people, I know we don't really need yet another podcast). I just think that it might be a bit better fit for the kind of tone I have in my blog. Writing is absolutely fine and I think I'll end up with a bit of both. When the topic is heavier, I may do a podcast (with myself only) of free-flowing thoughts instead of prose. Writing takes a lot more time and i don't really like it when it's not polished..
 
 Anyways, I'll figure that part out but I do need feedback on what to prioritize next on this blog. Leave a comment on what you think I should do next here:
 
+0. Setup comments section on this website so it's not like I'm talking to a wall. Also slide that google analytics js into the source while at it.
 1. Building BAIL - Part 2 (in this write-up, I'd like to go into the implementation side of things, both on the backend and frontend)
 2. Getting hired in software engineering: This is going to be simply a recipe style write-up which will rescue me from all the phone calls/cold emails/linkedin messages. I think I can just refer people over here for the resources I find helpful.
 3. The best of the best: All-star products I use at home. Whether it's a kitchen knife, a pair of headphones, shoes, keyboard, water bottle. Everyday items but only those that served me well (or I already fell in love in such a short amount of time).
