@@ -41,3 +41,5 @@ I think the best one from the recent era is Blake Griffin over Pau Gasol (twice)
 And finally, here's one from the FLASH. Playoffs edition.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5uRN7iJ5CqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Been meaning to make this compilation for some time now and am happy I finished it. Hope the NBA runs smoothly in the Bubble for the rest of the season because I have a feeling the playoffs will be fun! Go BLAZERS! 
