@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Career ending dunks
-category: life
+category: sports
 comments: true
 published: true
 ---
