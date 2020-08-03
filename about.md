@@ -4,10 +4,4 @@ title: About
 permalink: /about/
 ---
 
-### Contact me
-
-- [avcitamer94@gmail.com](mailto:avcitamer94@gmail.com)
-- [tamerav@amazon.com](mailto:tamerav@amazon.com)
-- [facebook.com/tameravci94](https://facebook.com/tameravci94)
-- [instagram.com/tamer_avci](https://instagram.com/tamer_avci)
-- [linkedin.com/in/tameravci](https://linkedin.com/in/tameravci)
+Hi! My name is Tamer Avci. Nice to e-meet you. Feel free to wander around the website or get in touch with me using one of the icons in the footer. 
