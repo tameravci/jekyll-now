@@ -16,6 +16,7 @@ Even meetings at work. Frankly, a lot of them could simply be emails. And this i
 
 If any of this resonated with you so far or if you are hungry for more tips, I'm pretty sure you are going to like the following collection of resources that I gathered over time. They offer valuable insights into how you can improve your writing by focusing on the essentials. I hope to update this as I find more information on this subject.
 
+- Aug 2020 Addition: [On Writing Well](https://sive.rs/book/OnWritingWell)
 - [Tips for great writing: concrete steps](http://web.archive.org/web/20050403185924/http://www.testing.com/cgi-bin/blog/2004/11/16)
 - [Writing tips for non-writers](https://whatever.scalzi.com/2006/02/12/writing-tips-for-non-writers-who-dont-want-to-work-at-writing/)
 - [Why we should ALL write blogs](https://sites.google.com/site/steveyegge2/you-should-write-blogs)
@@ -26,7 +27,6 @@ If any of this resonated with you so far or if you are hungry for more tips, I'm
 - [How to ask smart questions the right way](http://www.catb.org/esr/faqs/smart-questions.html)
 - [How to write concisely](https://www.npr.org/sections/13.7/2014/02/03/270680304/this-could-have-been-shorter#:~:text=In%20his%20Lettres%20Provinciales%2C%20the,did%20not%20have%20the%20time.)
 - [How to blog](https://blog.codinghorror.com/blogging-about-blogging/)
-
 
 And finally, never forget the following. 
 
