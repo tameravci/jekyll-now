@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Weekly Digest
+title: Weekly Digest I
 category: digest
 comments: true
 published: true
