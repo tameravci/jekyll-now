@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ultimate Guide to land your junior software engineering job
+title: Ultimate Guide to land a junior software engineering job
 category: [engineering]
 comments: true
 ---
