@@ -5,7 +5,9 @@ category: [engineering]
 comments: true
 ---
 
-I saw a tweet the other day and it really piqued my interest. Here's the source to give her credit: https://twitter.com/mattiekahn/status/1224100727578120193 "The app is called “You’re Cancelled.” When you’ve made plans that you wish you could cancel, you go into the app and press a little button. If the other person presses theirs too, congratulations! Confetti exploded and your plans are cancelled." 
+I saw a tweet the other day and it really piqued my interest. "The app is called “You’re Cancelled.” When you’ve made plans that you wish you could cancel, you go into the app and press a little button. If the other person presses theirs too, congratulations! Confetti exploded and your plans are cancelled." 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The app is called “You’re Cancelled.” When you’ve made plans that you wish you could cancel, you go into the app and press a little button. If the other person presses theirs too, congratulations! Confetti exploded and your plans are cancelled.</p>&mdash; mattie kahn (@mattiekahn) <a href="https://twitter.com/mattiekahn/status/1224100727578120193?ref_src=twsrc%5Etfw">February 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Needless to say, I was immediately sold. I was drinking beer when I saw it so I told my friend about it and asked him to hold my beer. Honestly, the idea might promote something anti-social but I just thought it would be a good exercise to flex my android app and side project skills. I also think that it's somewhat of an appropriate app idea especially for people of Seattle. Have you heard of the Seattle freeze?
 
