@@ -70,7 +70,7 @@ Also, this is not how senior engineers are interviewed. I rarely talked about sy
 
 > Finally, search on LinkedIn to see who’s working at the companies you want to work for and see if they are willing to put in a referral for you. This usually works better if they know you well and they work at a smaller company. Otherwise, don’t expect much from this. Also at best you will get your resume on the top of the pile, that’s it. You still have to do well in your interviews. When you reach out to the people, be respectful of their time, don't write long emails (nobody got time to read them), and clearly highlight what you are asking and why.
 
-Hope you find this guide helpful. If you have any questions or feedback, send me an email.
+Hope you find this guide helpful. If you have any questions or feedback, send me an email. Here's another useful resource and you can find further reading at the bottom of the page: https://www.palantir.com/the-coding-interview/
 
 
 
