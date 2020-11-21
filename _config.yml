@@ -9,7 +9,7 @@ name: Tamer Avcı
 description: Opportunity
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: http://tameravci.com/tamer2.jpg
+avatar:
 
 permalink: /:categories/:title/
 
