@@ -2,11 +2,11 @@
 <html>
   <head>
         <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=PT Sans">
+          href="https://fonts.googleapis.com/css?family=Helvetica">
     <style>
       body {
-        font-family: 'PT Sans', serif;
-        font-size: 48px;
+        font-family: 'Helvetica', serif;
+        font-size: 32px;
       }
     </style>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
@@ -36,8 +36,8 @@
 
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/categories">Categories</a>
+            <a href="https://tameravci.com">About</a>
           </nav>
         </header>
       </div>
@@ -53,6 +53,5 @@
           {% include svg-icons.html %}
         </footer>
       </div>
-    </div>
   </body>
 </html>
