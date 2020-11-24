@@ -41,3 +41,7 @@ I would summarize the decisions that went into this architecture as follows:
 - Finally, I would like to praise TP-link router software. Super easy to use, intuitive, fast firmware upgrades. And best of all, they provide Dynamic DNS server. With this, you can take advantage of the free service they provide and slap a domain on your dynamic IP! Open your gaming ports, and voila, you can host the game servers to play games with your friends over the world or host your own website but do it at your own risk :-) The only limitation is that they can only bind one domain at a time. Which is fine with me.
 
 Hope this was helpful to someone out there. Let me know if you have any questions about the setup.
+
+Follow my twitter for more updates:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Signed up for a gigabit <a href="https://twitter.com/googlefiber?ref_src=twsrc%5Etfw">@googlefiber</a> at my new place and even got a few cat8 cables for the switch. This is already a huge jump from my old setup but I still wonder why the download speed is ~30% less than the upload 🙃 <a href="https://t.co/u85bTX2OrC">pic.twitter.com/u85bTX2OrC</a></p>&mdash; Tamer Avcı (@tamer_avci) <a href="https://twitter.com/tamer_avci/status/1305319415634821120?ref_src=twsrc%5Etfw">September 14, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
