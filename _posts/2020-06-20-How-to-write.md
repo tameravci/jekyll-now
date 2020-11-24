@@ -6,7 +6,7 @@ comments: true
 published: true
 ---
 
-Writing is serious business. It's the only medium that can enhance or damage the ideas it conveys. It's like railroad tracks. Unless they are laid out securely, no train of thought (*pun intended*) would be safe to travel on them.
+Writing is a serious business. It's the only medium that can enhance or damage the ideas it conveys. It's like railroad tracks. Unless they are laid out securely, no train of thought (*pun intended*) would be safe to travel on them.
 
 To make things worse, we actually take good writing for granted. Most of the published stuff gets reviewed and edited for a number of times before it reaches us: the readers, the consumers. So many man-hours go into crafting a news article, an editorial, or even a blog post. It wasn't until I wrote my first public blog post that I experienced the good old challenge of writing. Sure, I did plenty of writing in school but to this day I still feel rusty. Journaling just doesn't cut it. I treat that as if I have no audience. You can't afford do that in public domain.
 
