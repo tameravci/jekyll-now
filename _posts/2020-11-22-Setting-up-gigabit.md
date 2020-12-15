@@ -5,6 +5,8 @@ category: [engineering]
 comments: true
 ---
 
+![speed](https://github.com/tameravci/tameravci.github.io/blob/master/images/Screenshot%202020-11-23%20182807.png?raw=true)
+
 I made it guys. I really did it. I can now download and upload approximately 125 MB worth of data every second or, put another way, 1000 Mbps. Goodbye to all of the streaming and gaming lag - I am very stoked!
 
 To put things in perspective, this is what I can theoretically do with this kind of internet. I can download:
@@ -41,9 +43,6 @@ I would summarize the decisions that went into this architecture as follows:
 - I used the tp link sg80e gigabit switch in the living room to connect the Ps4 and the TV. I confirmed that the ps4 is pulling gigabit speed but not the samsung TV. Nothing I can do about that. PS4 matters more because we do a lot of upload over there when playing multiplayer games. Nowadays, both us-east and us-west game servers show very small latency for me.
 - Another interesting thing that's set up in my network is the Pi-hole DNS server. This is an open-source tool that you can install on your rasperry pi or some other linux based computer. It's super convenient as you can set this up at the network level so the internet is already filtered ad-free before going to your end clients (devices). I kind of whitelisted my main workstation from this DNS proxy because it was leading to a considerable decrease in speed. I highly recommend using this tool if you are bothered by the ads and you realized you can't really install an adblocker on your "Google" phone or your "Samsung" tv. If you don't want to create a default proxy, you can also configure each device individually to pick and choose. You'll be surprised by how many ads we are bombarded with.. Don't get your hopes high though. Some companies are serving the ads from the content endpoints so essentially that's defeating the pi-hole's capability to block ads. For example, you can't watch Hulu at all.. You have to whitelist their endpoint and that opens the gates for the ads. Youtube is like 50/50. There's definitely a decrease in the number of ads I see but they must be doing something clever that doesn't block the ads on the TV entirely. Strange that the ABP on the browser extension works much better in this regard.
 - Finally, I would like to praise the TP-link router software. Super easy to use and intuitive. The firmware upgrades were also fast and reliable. And best of all, they provide a free Dynamic DNS service. With this, you can take advantage of the free service they provide and slap a domain on your dynamic IP! Open your gaming ports, and voila, you can host the game servers to play games with your friends all over the world or host your own website for free but do it at your own risk :-) The only limitation is that they can only bind one domain at a time. Which is fine with me.
-
-### Speed test:
-![speed](https://github.com/tameravci/tameravci.github.io/blob/master/images/Screenshot%202020-11-23%20182807.png?raw=true)
 
 Hope this was helpful to someone out there. Let me know if you have any questions about the setup.
 
