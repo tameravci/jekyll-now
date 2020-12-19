@@ -23,6 +23,7 @@ If any of this resonated with you so far or if you are hungry for more tips, I'm
 - When we do write, we have to be critical of every statement we make. If it doesn't add anything to the overall message, delete it. If it's somewhat redundant, delete it. If it's too hard to comprehend, delete it. If it uses passive voice, rephrase it in active voice. Assume the reciepient has 30 seconds to read your message. Would your point come across? If not, try again. At the very least, move what you are asking to the top and then provide details later. You know what happened to our attention spans, right?[Concise writing in Turkish](https://twitter.com/tamer_avci/status/1242528726350323713)
 - [Do NOT ever just say hello](https://www.nohello.com/)
 - [Why we are afraid of writing](https://blog.codinghorror.com/fear-of-writing/)
+- [11 Basic Writing Rules – Common Mistakes & Fixes](https://custom-writing.org/blog/rules-of-writing)
 - [How to be a successful blogger](https://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/)
 - [How to ask smart questions the right way](http://www.catb.org/esr/faqs/smart-questions.html)
 - [How to write concisely](https://www.npr.org/sections/13.7/2014/02/03/270680304/this-could-have-been-shorter#:~:text=In%20his%20Lettres%20Provinciales%2C%20the,did%20not%20have%20the%20time.)
