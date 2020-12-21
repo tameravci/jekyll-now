@@ -13,7 +13,7 @@ Needless to say, I was immediately sold. I was drinking beer when I saw it so I 
 
 Anyways, I fully intend to finish this and release it on iOS and Google Play store if I can find a solid designer who can finish the UI for me. I will get the rest done. So if you like to build cool things and have some experience with Android/iOS design, please inquire within: avcitamer94@gmail.com
 
-I already have the perfect cover picture idea for the app. I just need to email the artist to see if he would be okay with me using it - or see what he would want in return. Check him out: https://www.willmcphail.com/about I'm a big fan of his New Yorker work.
+I already have the perfect cover picture idea for the app. I just need to email the artist to see if he would be okay with me using it - or see what he would want in return. Check him out: https://www.willmcphail.com/about I'm a big fan of his New Yorker cartoons.
 <img src="https://raw.githubusercontent.com/tameravci/tameravci.github.io/master/_posts/EP11Bo5XkAAa7wR.jpg" width="450" height="450">
 
 Without further due, let's get right into it. First things first. Pick a playlist. Honestly, if I'm coding something exciting but also kinda edgy, I'll go with the Social network soundtrack. Enjoy: https://open.spotify.com/album/1ijkFiMeHopKkHyvQCWxUa?si=3SGegSNkTom9JHvelWcyQg. If I'm more in the melodic/dark techno mood, then I'll go with Mind Against or Tale of Us. Pick your poison basically.
