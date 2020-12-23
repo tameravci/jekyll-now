@@ -36,7 +36,7 @@ Note for interviewing during covid: I realized most applicants don’t get an in
 - Do you immediately try to solve the problem or reiterate the question, draw helpful stuff on the board, and ask clarifying questions? Do you wonder about the boundary conditions, do you ask about the exact requirements? What’s in scope - what’s out of scope?
 - Clarifying all the vague stuff will make interviewers check-off an important point. Ask questions, visualize the problem on the board, and always think out loud. It’s okay to take 10-20 seconds to think in silence and gather your thoughts but otherwise make it a conversation. Nobody expects you to come up with the answer right away, we just want to see how you think. Show us how you think.
 2. Can you solve the problem?
-- By this we don’t mean if you can immediately code it out. Do you even have an idea of how the algorithm should look like? Do you know at a high-level what data structures you will be using? Can you communicate the algortihm verbally? Tell us your idea and plan before you code.
+- By this we don’t mean if you can immediately code it out. Do you even have an idea of how the algorithm should look like? Do you know at a high-level what data structures you will be using? Can you communicate the algortihm verbally? Tell us your idea and plan before you code. Whiteboard some examples. Show us what you want to do visually.
 - Finally, code it up. Don’t stop talking while you code. Explain your thought process as you go. 
 - Check your code for basic edge cases.
 - Quickly test your code with a few simple test cases. Describing what test cases you will run your code against will give you extra points.
